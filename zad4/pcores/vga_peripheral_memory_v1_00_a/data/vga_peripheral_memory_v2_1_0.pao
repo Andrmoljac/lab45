@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          C:/materija/Ra175-2013/LPRS2/vezbe/lab3/zad3/pcores/vga_peripheral_memory_v1_00_a/data/vga_peripheral_memory_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Apr 04 17:44:34 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib vga_peripheral_memory_v1_00_a user_logic vhdl
+lib vga_peripheral_memory_v1_00_a vga_peripheral_memory vhdl

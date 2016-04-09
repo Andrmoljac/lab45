@@ -1,0 +1,66 @@
+17:56:50.767 INFO  - Processing command line option -hwspec C:\materija\RA151-2013\lab3\SDK\SDK_Export\hw\system.xml. 
+18:06:32.578 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:07:05.681 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:08:34.164 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:09:22.680 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:11:16.701 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:12:34.374 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:15:33.641 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+18:30:15.297 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:03:43.442 INFO  - FPGA configured successfully with bitstream "C:/materija/RA151-2013/lab3/SDK/SDK_Workspace/lab3_hw_platform/download.bit" 
+13:08:31.854 INFO  - FPGA configured successfully with bitstream "C:/materija/RA151-2013/lab3/SDK/SDK_Workspace/lab3_hw_platform/download.bit" 
+13:44:32.443 INFO  - Project lab3_hw_platform's source hardware specification located at C:\materija\RA151-2013\lab3\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+13:47:28.880 INFO  - Copied contents of C:\materija\RA151-2013\lab3\SDK\SDK_Export\hw\system.xml into \lab3_hw_platform\system.xml. 
+13:47:28.958 INFO  - Copied contents of C:\materija\RA151-2013\lab3\SDK\SDK_Export\hw\system.bit into \lab3_hw_platform\system.bit. 
+13:47:28.973 INFO  - Copied contents of C:\materija\RA151-2013\lab3\SDK\SDK_Export\hw\system_bd.bmm into \lab3_hw_platform\system_bd.bmm. 
+13:47:29.550 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:47:30.580 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: dip_switches, driver: gpio_v3_01_a.
+			Peripheral Instance: leds, driver: gpio_v3_01_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: my_peripheral_0, driver: generic_v1_00_a.
+ 
+13:47:31.422 INFO  - Updating hardware inferred compiler options for hello_world. 
+13:47:31.454 INFO  - Clearing existing target manager status. 
+13:47:38.553 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+13:47:38.553 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

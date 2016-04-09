@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          C:\materija\Ra175-2013\LPRS2\vezbe\lab3\zad3/drivers/vga_peripheral_memory_v1_00_a/data/vga_peripheral_memory_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Apr 04 17:44:35 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER vga_peripheral_memory
+
+  OPTION supported_peripherals = (vga_peripheral_memory);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

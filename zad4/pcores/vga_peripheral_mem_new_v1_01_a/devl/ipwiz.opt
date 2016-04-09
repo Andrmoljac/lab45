@@ -1,0 +1,10 @@
+-batch 
+-create vga_peripheral_mem_new 
+-ver 1.01.a 
+-dir "C:\materija\Ra175-2013\LPRS2\vezbe\lab3\zad3" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 32 
+-xps 
+-ise 
+-driver 

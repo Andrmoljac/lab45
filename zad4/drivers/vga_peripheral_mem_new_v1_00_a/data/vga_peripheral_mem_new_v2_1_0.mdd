@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          C:\materija\RA151-2013\lab3/drivers/vga_peripheral_mem_new_v1_00_a/data/vga_peripheral_mem_new_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Apr 04 17:55:53 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER vga_peripheral_mem_new
+
+  OPTION supported_peripherals = (vga_peripheral_mem_new);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

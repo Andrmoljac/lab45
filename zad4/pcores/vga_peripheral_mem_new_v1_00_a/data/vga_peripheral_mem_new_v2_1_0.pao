@@ -1,0 +1,21 @@
+##############################################################################
+## Filename:          C:/materija/RA151-2013/lab3/pcores/vga_peripheral_mem_new_v1_00_a/data/vga_peripheral_mem_new_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Apr 04 17:55:49 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib vga_peripheral_mem_new_v1_01_a user_logic vhdl
+lib vga_peripheral_mem_new_v1_01_a vga_peripheral_mem_new vhdl
+lib vga_peripheral_mem_new_v1_01_a char_rom vhdl
+lib vga_peripheral_mem_new_v1_01_a char_rom_def vhdl
+lib vga_peripheral_mem_new_v1_01_a dcm25MHz vhdl
+lib vga_peripheral_mem_new_v1_01_a dcm50MHz vhdl
+lib vga_peripheral_mem_new_v1_01_a dcm75MHz vhdl
+lib vga_peripheral_mem_new_v1_01_a dcm108MHz vhdl
+lib vga_peripheral_mem_new_v1_01_a graphics_mem vhdl
+lib vga_peripheral_mem_new_v1_01_a text_mem vhdl
+lib vga_peripheral_mem_new_v1_01_a vga vhdl
+lib vga_peripheral_mem_new_v1_01_a vga_sync vhdl
+lib vga_peripheral_mem_new_v1_01_a vga_top vhdl
